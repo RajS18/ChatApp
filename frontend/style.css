@@ -1,0 +1,78 @@
+body {
+  font-family: "Ubuntu";
+}
+
+h2 {
+  font-size: 18px;
+  padding: 10px 20px;
+  color: #575ed8;
+}
+
+#chat {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+  box-shadow: 50px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+#chat-window {
+  height: 350px;
+  overflow: auto;
+  background: #f9f9f9;
+  background-color: #bbbbf5;
+}
+
+#output p {
+  padding: 14px 0px;
+  margin: 0 20px;
+  color: #555;
+  font-family: "Ubuntu";
+}
+
+#feedback p {
+  color: black;
+  padding: 14px 0px;
+  margin: 0 20px;
+  font-family: "Ubuntu";
+}
+
+#output strong {
+  color: #575ed8;
+}
+
+label {
+  box-sizing: border-box;
+  display: block;
+  padding: 10px 20px;
+  font-family: "Ubuntu";
+}
+
+input {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background: #eee;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border: 2px black;
+  font-family: "Ubuntu";
+  font-size: 16px;
+}
+input:focus {
+  outline: none;
+}
+
+button {
+  background: #575ed8;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  padding: 12px 0;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+}
+button:hover{
+    background-color: #373c9e;
+}
